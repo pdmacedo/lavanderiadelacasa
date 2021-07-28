@@ -1,0 +1,24 @@
+#styleInstagram
+{
+    @extend.marginIzq;
+}
+
+#styleWhatsapp
+{
+    @extend.marginIzq;
+    @extend.marginDer;
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+#redesNavbar {
+   @include sizes(32px, 32px);
+}
+
+#logoNav {
+    @include sizes(60px, 80px);
+}
+

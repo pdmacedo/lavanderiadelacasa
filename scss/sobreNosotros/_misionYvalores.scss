@@ -1,0 +1,38 @@
+#fondoSobreNosotros
+{
+    background-color: #FFBF80;
+}
+
+#h2Mision
+{
+    @extend.colorBlanco;
+    margin-top: 50px;
+}
+
+#h2Valores
+{
+    @extend.colorBlanco;
+    margin-top: 50px;
+}
+
+#mision
+{
+    @extend.colorBlanco;
+    margin-bottom: 50px;
+}
+
+#liValores
+{
+    @extend.colorBlanco;
+}
+
+#liHonestidad
+{
+    @extend.colorBlanco;
+    margin-bottom: 45px;
+}
+
+#pConcepto
+{
+    font-size: 18px;
+}

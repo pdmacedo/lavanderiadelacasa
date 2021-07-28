@@ -1,0 +1,104 @@
+#redesNavbar {
+  height: 32px;
+  width: 32px;
+}
+
+#logoNav {
+  height: 80px;
+  width: 60px;
+}
+
+#estacionamientoLabel {
+  vertical-align: middle;
+  font-size: 24px;
+}
+
+#pagosIcons {
+  vertical-align: middle;
+}
+
+#fondoFooter {
+  background-color: #fcb976;
+}
+
+#labelPagos {
+  font-size: 20px;
+}
+
+#infoIcons {
+  vertical-align: middle;
+}
+
+#colorLinea {
+  color: #ff9f40;
+}
+
+#fondoSobreNosotros {
+  background-color: #FFBF80;
+}
+
+#h2Mision {
+  margin-top: 50px;
+}
+
+#h2Valores {
+  margin-top: 50px;
+}
+
+#mision {
+  margin-bottom: 50px;
+}
+
+#liHonestidad {
+  margin-bottom: 45px;
+}
+
+#pConcepto {
+  font-size: 18px;
+}
+
+#tituloServicios {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#imgMujer {
+  margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+  #funcionamiento {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  #estacionamientoLabel, #labelPagos {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .col-sm-12 {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1020px) {
+  #styleInstagram, #styleWhatsapp {
+    margin-left: 0px !important;
+    margin-top: 12px;
+  }
+}
+.marginIzq, #styleInstagram, #styleWhatsapp, #estacionamientoIcon, #pagosIcons, #infoIcons {
+  margin-left: 15px;
+}
+
+.marginDer, #styleWhatsapp, #estacionamientoIcon {
+  margin-right: 15px;
+}
+
+.colorBlanco, #h2Mision, #h2Valores, #mision, #liValores, #liHonestidad {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

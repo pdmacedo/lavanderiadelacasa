@@ -1,0 +1,27 @@
+#estacionamientoIcon
+{
+    @extend.marginIzq;
+    @extend.marginDer;
+}
+
+#estacionamientoLabel
+{
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+#pagosIcons
+{
+    @extend.marginIzq;
+    vertical-align: middle;
+}
+
+#fondoFooter
+{
+    background-color: #fcb976;
+}
+
+#labelPagos
+{
+    font-size: 20px;
+}
