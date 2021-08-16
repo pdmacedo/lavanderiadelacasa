@@ -47,6 +47,7 @@
 }
 
 #marginPTapete {
+  font-size: 22px;
   margin-top: 27px;
 }
 
@@ -59,7 +60,12 @@
 }
 
 #marginPCostura {
+  font-size: 22px;
   margin-top: 27px;
+}
+
+#sizeParrafo {
+  font-size: 22px;
 }
 
 /*CSS DE SOBRE NOSOTROS*/
@@ -182,6 +188,11 @@
 @media (max-width: 737px) {
   #imgNosotrosYservicios {
     text-align: center;
+  }
+}
+@media (max-width: 1200px) and (min-width: 990px) {
+  #botonSaberMas {
+    margin-top: 35px;
   }
 }
 /*EXTENDS*/
