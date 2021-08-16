@@ -1,3 +1,5 @@
+/*CSS PARA NAVBAR*/
+
 #styleInstagram
 {
     @extend.marginIzq;
@@ -20,5 +22,10 @@
 
 #logoNav {
     @include sizes(60px, 80px);
+}
+
+#colorFuente
+{
+    color:black
 }
 

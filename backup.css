@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*CSS PARA NAVBAR*/
 #redesNavbar {
   height: 32px;
   width: 32px;
@@ -8,6 +10,11 @@
   width: 60px;
 }
 
+#colorFuente {
+  color: black;
+}
+
+/*CSS DEL FOOTER*/
 #estacionamientoLabel {
   vertical-align: middle;
   font-size: 24px;
@@ -25,14 +32,37 @@
   font-size: 20px;
 }
 
+/*CSS CONTAINER DE FUNCIONAMIENTO DEL LOCAL*/
 #infoIcons {
   vertical-align: middle;
 }
 
+/*CSS PARA EL COLOR DE LA LINEA DE SEPARACIÓN*/
 #colorLinea {
   color: #ff9f40;
 }
 
+#masServicios {
+  margin-bottom: 50px;
+}
+
+#marginPTapete {
+  margin-top: 27px;
+}
+
+#topTapete {
+  margin-top: 30px;
+}
+
+#topCostura {
+  margin-top: 30px;
+}
+
+#marginPCostura {
+  margin-top: 27px;
+}
+
+/*CSS DE SOBRE NOSOTROS*/
 #fondoSobreNosotros {
   background-color: #FFBF80;
 }
@@ -57,6 +87,7 @@
   font-size: 18px;
 }
 
+/*CSS DE SERVICIOS*/
 #tituloServicios {
   font-size: 36px;
   color: black;
@@ -64,11 +95,13 @@
   margin-top: 50px;
 }
 
+/*CSS PARA IMAGEN DE MUJER EN PRECIOS*/
 #imgMujer {
   margin-top: 100px;
 }
 
-@media (max-width: 576px) {
+/*MEDIAS*/
+@media (max-width: 737px) {
   #funcionamiento {
     text-align: center;
   }
@@ -78,7 +111,7 @@
     font-size: 16px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 737px) {
   .col-sm-12 {
     margin-top: 15px;
   }
@@ -89,6 +122,27 @@
     margin-top: 12px;
   }
 }
+@media (max-width: 737px) {
+  #imagenPrecios {
+    display: none;
+  }
+}
+@media (max-width: 737px) {
+  .col-md-5 {
+    text-align: center;
+  }
+}
+@media (max-width: 737px) {
+  #masServicios {
+    text-align: center;
+  }
+}
+@media (max-width: 737px) {
+  #imgNosotrosYservicios {
+    text-align: center;
+  }
+}
+/*EXTENDS*/
 .marginIzq, #styleInstagram, #styleWhatsapp, #estacionamientoIcon, #pagosIcons, #infoIcons {
   margin-left: 15px;
 }
@@ -99,6 +153,16 @@
 
 .colorBlanco, #h2Mision, #h2Valores, #mision, #liValores, #liHonestidad {
   color: white;
+}
+
+.tamanoImgTapete, #imgTapete {
+  height: 200px;
+  width: 200px;
+}
+
+.tamanoImgCostura, #imgCostura {
+  height: 200px;
+  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

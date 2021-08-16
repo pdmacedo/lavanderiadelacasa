@@ -1,34 +1,36 @@
+/*CSS DE SOBRE NOSOTROS*/
+
 #fondoSobreNosotros
 {
-    background-color: #FFBF80;
+    background-color: #feb981;
 }
 
 #h2Mision
 {
-    @extend.colorBlanco;
+    @extend.colorNegro;
     margin-top: 50px;
 }
 
 #h2Valores
 {
-    @extend.colorBlanco;
+    @extend.colorNegro;
     margin-top: 50px;
 }
 
 #mision
 {
-    @extend.colorBlanco;
+    @extend.colorNegro;
     margin-bottom: 50px;
 }
 
 #liValores
 {
-    @extend.colorBlanco;
+    @extend.colorNegro;
 }
 
 #liHonestidad
 {
-    @extend.colorBlanco;
+    @extend.colorNegro;
     margin-bottom: 45px;
 }
 
