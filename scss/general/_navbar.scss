@@ -16,7 +16,7 @@
     width: $width;
 }
 
-#redesNavbar {
+.redesNavbar {
    @include sizes(32px, 32px);
 }
 
@@ -24,7 +24,7 @@
     @include sizes(60px, 80px);
 }
 
-#colorFuente
+.colorFuente
 {
     color:black
 }

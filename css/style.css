@@ -1,17 +1,18 @@
 @charset "UTF-8";
 /*CSS PARA NAVBAR*/
-#redesNavbar {
+.redesNavbar {
   height: 32px;
   width: 32px;
 }
 
-#logoNav {
-  height: 80px;
-  width: 60px;
+.iconBanderas
+{
+  
 }
 
-#colorFuente {
-  color: black;
+.logoNav {
+  height: 80px;
+  width: 60px;
 }
 
 /*CSS DEL FOOTER*/
@@ -20,7 +21,12 @@
   font-size: 24px;
 }
 
-#pagosIcons {
+/*CSS DE SERVICIOS*/
+.h1NuestrosServicios {
+  margin-top: 100px;
+}
+
+.pagosIcons {
   vertical-align: middle;
 }
 
@@ -32,13 +38,24 @@
   font-size: 20px;
 }
 
+.aDelivery
+{
+  text-decoration: none;
+}
+
 /*CSS CONTAINER DE FUNCIONAMIENTO DEL LOCAL*/
-#infoIcons {
+.infoIcons {
   vertical-align: middle;
 }
 
+.asideLogo
+{
+  width: 150px; 
+  height: 190px;
+}
+
 /*CSS PARA EL COLOR DE LA LINEA DE SEPARACIÓN*/
-#colorLinea {
+.colorLinea {
   color: black;
 }
 
@@ -51,14 +68,6 @@
   margin-top: 27px;
 }
 
-#topTapete {
-  margin-top: 30px;
-}
-
-#topCostura {
-  margin-top: 30px;
-}
-
 #marginPCostura {
   font-size: 22px;
   margin-top: 27px;
@@ -69,19 +78,25 @@
 }
 
 /*CSS DE SOBRE NOSOTROS*/
-#fondoSobreNosotros {
+.fondoSobreNosotros {
   background-color: #feb981;
 }
 
-#h2Mision {
+.h2Mision {
+  text-align: center;
   margin-top: 50px;
 }
 
-#h2Valores {
+.h2Valores {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.h2Motivacao {
   margin-top: 50px;
 }
 
-#mision {
+.mision {
   margin-bottom: 50px;
 }
 
@@ -98,6 +113,12 @@
   color: black;
 }
 
+.imgSobreNosotros
+{
+  width: 450px; 
+  height: 300px;
+}
+
 /*CSS DE SERVICIOS*/
 #tituloServicios {
   font-size: 36px;
@@ -106,30 +127,52 @@
   margin-top: 50px;
 }
 
-#marginServicios {
+.marginServicios {
   margin-top: 50px;
 }
 
-#marginServicios2 {
+.paddingServ1
+{
+  padding-bottom: 30px;
+}
+
+.paddingSobreNos
+{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.marginServicios3 {
   margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.marginServicios2 {
+  padding-bottom: 30px;
   background-color: #feb981;
 }
 
-#frase {
+.borderSolido
+{
+  border-style: solid;
+  border-width: 0.1rem;
+}
+
+.frase {
   background-color: #fd943f;
 }
 
-#pFrase {
+.pFrase {
   margin-top: 50px;
   margin-bottom: 50px;
   color: black;
 }
 
-#marginH2 {
+.marginH2 {
   margin-top: 40px;
 }
 
-#marginParrafo {
+.marginParrafo {
   margin-bottom: 40px;
 }
 
@@ -150,7 +193,7 @@
 
 /*MEDIAS*/
 @media (max-width: 737px) {
-  #funcionamiento {
+  .funcionamiento {
     text-align: center;
   }
 }
@@ -196,7 +239,7 @@
   }
 }
 /*EXTENDS*/
-.marginIzq, #styleInstagram, #styleWhatsapp, #estacionamientoIcon, #pagosIcons, #infoIcons {
+.marginIzq, #styleInstagram, #styleWhatsapp, #estacionamientoIcon, .pagosIcons, .infoIcons {
   margin-left: 15px;
 }
 
@@ -204,7 +247,12 @@
   margin-right: 15px;
 }
 
-.colorNegro, #h2Mision, #h2Valores, #mision, #liValores, #liHonestidad {
+.marginDerMisao
+{
+  margin-right: 85px;
+}
+
+.colorNegro, .h2Mision, .h2Valores, .mision, #liValores, #liHonestidad {
   color: black;
 }
 
@@ -218,4 +266,99 @@
   width: 200px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*CSS DE SERVICIOS*/
+.inputAssunto
+{
+  height: 98px;
+}
+
+/*CSS DEL FOOTER ACTUAL*/
+.fondoFooter
+{
+    background-color:  #fd943f;
+}
+
+.divFooter
+{
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+
+.fb
+{
+    background-color: #3b5998;
+}
+
+.what
+{
+    background-color: #00cc00;
+}
+
+.instagram
+{
+    background-color: #ac2bac;
+}
+
+.divCopyright
+{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.alert-fixed {
+    position:fixed;
+    top: 0px; 
+    right: 0px; 
+    width: 30%;
+    z-index:9999; 
+    border-radius:0px
+}
+
+.btn-primary 
+{
+  border-color: black;
+}
+
+.letraNegra
+{
+  color: black;
+}
+
+.sinEstilo
+{
+  list-style: none;
+}
+
+.iconPagos
+{
+  height: 36px;
+  width: 36px;
+}
+
+.borderDivServicios
+{
+  border-color: black;
+}
+
+.cardIndex
+{
+  width: 20rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.col-md-6#topTapete
+{
+  margin-top: 10px;
+}
+
+.idiomaNavIzquierda
+{
+  margin-left: 1100px;
+}
+
+.styleSobreNos
+{
+  width: 126px;
+}
